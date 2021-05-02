@@ -12,9 +12,7 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
       <Router>
-        <Navbar></Navbar>
         <Switch>
           <Route path="/home">
             <Home></Home>
@@ -27,7 +25,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </div>
   );
 }
 
